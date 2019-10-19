@@ -1,0 +1,20 @@
+alphabet: ab
+states: q0,q1,q2
+final: q1
+transitions:
+q0,a --> q1
+q0,b --> q1
+q1,a --> q2
+q1,b --> q2
+q2,a --> q2
+q2,b --> q2
+end.
+
+dfa: y
+finite: y
+
+words:
+a,y
+b,y
+ab,n
+end.

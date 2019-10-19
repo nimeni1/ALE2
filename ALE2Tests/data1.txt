@@ -1,0 +1,19 @@
+alphabet: abc
+
+states: Z,A,B,D
+
+final: B,D
+
+transitions:
+
+Z,a --> A
+Z,b --> Z
+A,b --> Z
+A,a --> B
+B,b --> B
+B,c --> Z
+Z,c --> D
+D,a --> A
+D,b --> B
+D,c --> Z
+.end

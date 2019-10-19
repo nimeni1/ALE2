@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALE2", "ALE2\ALE2.csproj", "{7F4020F9-B8C5-4F23-85A0-2AB71E57BAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALE2Tests", "ALE2Tests\ALE2Tests.csproj", "{1F91D1E2-13EC-4C52-BC29-D9AAC3562E52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F4020F9-B8C5-4F23-85A0-2AB71E57BAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4020F9-B8C5-4F23-85A0-2AB71E57BAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4020F9-B8C5-4F23-85A0-2AB71E57BAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4020F9-B8C5-4F23-85A0-2AB71E57BAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F91D1E2-13EC-4C52-BC29-D9AAC3562E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F91D1E2-13EC-4C52-BC29-D9AAC3562E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F91D1E2-13EC-4C52-BC29-D9AAC3562E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F91D1E2-13EC-4C52-BC29-D9AAC3562E52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4625EAC-1E21-46E7-8716-AF6105F45C7A}
+	EndGlobalSection
+EndGlobal

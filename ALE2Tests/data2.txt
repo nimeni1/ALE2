@@ -1,0 +1,21 @@
+alphabet: abcdef
+
+states: 0,1,2,3,4
+
+final: 3
+
+transitions:
+0,a --> 4
+0,b --> 2
+0,c --> 3
+0,d --> 1
+0,e --> 0
+1,a --> 2
+1,b --> 1
+1,c --> 3
+1,d --> 4
+1,g --> 10
+2,c --> asdf
+aq,as --> cvb
+4,a --> 1
+.end

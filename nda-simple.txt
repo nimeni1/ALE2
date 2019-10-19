@@ -1,0 +1,13 @@
+alphabet: 01 
+
+states: A,B 
+
+final: B 
+
+transitions:
+
+
+A,0 --> A 
+
+A,1 --> B
+A,1 --> A

@@ -1,0 +1,12 @@
+alphabet: abde
+stack: x
+states: A,B,C,D,E
+final: A,E
+transitions:
+A,a [x,_] --> A
+A,_ [_,x] --> C
+A,b [_,x] --> B
+C,d [x,_] --> D
+C,e [_,x] --> E
+E,_ [_,x] --> A
+end.
